@@ -6,3 +6,5 @@ git status статус
 branch ветка - версия проекта, много веток много версий, можно совмещать версии
 git restore --staged <file> удалить файл из отслеживаемых
 git add . | git add * | git add <file>
+git commit -m "First commit"
+.gitignore
