@@ -8,3 +8,7 @@ git restore --staged <file> удалить файл из отслеживаем�
 git add . | git add * | git add <file>
 git commit -m "First commit"
 .gitignore
+git branch смотрим в какоц ветке мы находимся
+ git branch -d test удаляем ветку
+ git checkout readme переключится на новую ветку
+ git checkout -b new создать ветку и сразу переключится
