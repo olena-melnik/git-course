@@ -11,11 +11,32 @@ git commit -m "First commit"
 git branch смотрим в какоц ветке мы находимся
  git branch -d test удаляем ветку
  git checkout readme переключится на новую ветку
- git checkout -b new создать ветку и сразу переключится
- git merge readme совмещаем ветки
+ git checkout -b new создать [<commit>] ветку и сразу переключится [создать ветку от конкретного коммита]
+ git merge readme совмещаем  ветки
  git reflog - показывает действия
  git remote –v  выведет список всех удаленных репозиториев, связанных с вашим локальным репозиторием.
  octotree - приложеие для Chrome
 git pull
 - клонировали репозиторий
 - создали новую ветку и перешли на нее
+vim <file>
+выйти из vim
+:x сохранить и выйти
+:w выйти без сохранения
+:q выйти, если ничего не меняли,будет спраишивать
+
+git log -p посмотреть подробно изменения коммита
+git restore откатить последний коммит
+git diff [--staged] измения не в коммите [в коммите]
+git commit -am "Message" добавить в коммит (add+commit)
+git mv переименовать/перенести файл
+git rm удаление файла
+git ls 
+git restore --staged <file> отменить изменения, которіе уже добавлены в коммит
+git rm --cached <file> удалить из отслеживаемых
+git resert --hard переместить указать на конкретный коммит
+git remote -v посмотреть все удаленные репозитории git 
+git fetch origin/master отследить последние коммиті на удаленнем сервере
+git push --set-upstream origin master ???
+git rebase master собрать коммиты 
+git push origin master -f !!!
